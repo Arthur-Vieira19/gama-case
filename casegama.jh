@@ -1,4 +1,3 @@
-
 enum Materias {
     Linguagens, Codigos, Ciencias_Humanas, Ciencias_Natureza, Matematica
 }
@@ -21,4 +20,3 @@ dto Aluno, Meta with mapstruct
 
 // encapsular as regras de negócio e manter o código mais estruturado.
 service Aluno, Meta with serviceClass
-
