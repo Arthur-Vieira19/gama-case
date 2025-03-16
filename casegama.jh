@@ -1,0 +1,24 @@
+
+enum Materias {
+    Linguagens, Codigos, Ciencias_Humanas, Ciencias_Natureza, Matematica
+}
+entity Meta {
+    nota Integer required,
+    materia AreaDoEnem required
+}
+entity Aluno {
+    nome String required
+}
+relationship OneToMany {
+    Aluno{meta} to Meta{aluno required}
+}
+
+// Ativamos a paginação para que a listagem fique mais organizada e de facil navegacao.
+paginate Aluno, Meta with pagination
+
+// Usamos DTOs com MapStruct para tornar a troca de dados entre o backend e o frontend mais eficiente.
+dto Aluno, Meta with mapstruct
+
+// encapsular as regras de negócio e manter o código mais estruturado.
+service Aluno, Meta with serviceClass
+
