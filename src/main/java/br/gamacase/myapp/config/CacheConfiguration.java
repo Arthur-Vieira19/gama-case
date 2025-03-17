@@ -50,6 +50,9 @@ public class CacheConfiguration {
             createCache(cm, br.gamacase.myapp.domain.User.class.getName());
             createCache(cm, br.gamacase.myapp.domain.Authority.class.getName());
             createCache(cm, br.gamacase.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.gamacase.myapp.domain.Meta.class.getName());
+            createCache(cm, br.gamacase.myapp.domain.Aluno.class.getName());
+            createCache(cm, br.gamacase.myapp.domain.Aluno.class.getName() + ".metas");
             // jhipster-needle-ehcache-add-entry
         };
     }
