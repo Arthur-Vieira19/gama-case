@@ -1,0 +1,12 @@
+{
+  "testeApp": {
+    "AreaDoEnem": {
+      "null": "",
+      "LINGUAGENS": "LINGUAGENS",
+      "CODIGOS": "CODIGOS",
+      "CIENCIAS_HUMANAS": "CIENCIAS_HUMANAS",
+      "CIENCIAS_NATUREZA": "CIENCIAS_NATUREZA",
+      "MATEMATICA": "MATEMATICA"
+    }
+  }
+}
