@@ -1,5 +1,5 @@
-enum Materias {
-    Linguagens, Codigos, Ciencias_Humanas, Ciencias_Natureza, Matematica
+enum AreaDoEnem {
+  LINGUAGENS, CODIGOS, CIENCIAS_HUMANAS, CIENCIAS_NATUREZA, MATEMATICA
 }
 entity Meta {
     nota Integer required,
